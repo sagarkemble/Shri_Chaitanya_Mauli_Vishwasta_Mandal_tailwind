@@ -12,5 +12,8 @@
     .transition-link{
         @apply transition-all ease-in duration-150 hover:text-white active:text-white;
     }
+    .animationmenu{
+        @apply transition-all ease-in duration-150 h-auto ;
+    }
   }
   
