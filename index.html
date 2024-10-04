@@ -1,15 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="input.css">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+    <title>Shri Chaitanya Mauli Vishwasta Mandal</title>
 </head>
-<body>
-    <div class="bg-slate-500 one">
-        asdfasdf
 
-    </div>
+<body>
+    <script src="script.js"></script>
+    <header>
+        <nav class="bg-color1 p-1 px-2 flex items-center justify-between">
+            <div class="logo flex">
+                <img src="src/images/icons and illustrations/Chaitanya Mauli Logo PNG.png" alt="logo" class="h-8">
+                <div class="name w-[200px] text-xs font-bold ml-2">
+                    Shri Chaitanya Mauli Vishwasta Mandal,Sangli
+                </div>
+            </div>
+            <div class="donate-btn ">
+                <button class="bg-color2 text-white p-1 w-20 rounded-lg">Donate</button>
+            </div>
+            <div class="menu"><i class="fa-solid fa-bars hamburger cursor-pointer text-2xl " onclick="showlinks()"></i>
+            </div>
+            <div class="crossicon hidden"><i class="fa-solid fa-xmark crossicon cursor-pointer text-2xl "
+                    onclick="hidelinks()"></i></div>
+
+            <!-- <div class="links text-black absolute top-10 border-t-2 border-b-2 border-color2 bg-[#0060a050] border-solid w-full p-0 left-0 flex flex-col items-center text-center p-2 hidden "> -->
+                <div class="links text-black absolute top-10 border-t-2 border-b-2 border-color2 bg-[#0060a050] border-solid w-full p-0 left-0 flex flex-col items-center text-center p-2 hidden ">
+
+
+
+                <ul class="">
+                    <li class="p-5"><a href="#" class="active-btn">HOME</a></li>
+
+                    <li class="p-5"><a href="#" class="transition-link">WHO WE ARE</a></li>
+
+                    <div class="transition-link" onclick="showsublink()">
+                        <li class="p-5"><a href="#" >WHAT WE DO</a>
+                            <i class="fa-solid fa-caret-down text-l"></i>
+                    </div>
+                        <ul class="sublink overflow-hidden max-h-0 transition-all duration-300 ease-in-out space-y-2">
+                            <li class="transition-link"><a href="">Daycare</a></li>
+                            <li class="transition-link"><a href="">Daycare</a></li>
+                            <li class="transition-link"><a href="">Daycare</a></li>
+                            <li class="transition-link"><a href="">Daycare</a></li>
+                            <li class="transition-link"><a href="">Daycare</a></li>
+                        </ul>
+                    </li>
+                    <li class="p-5"><a href="#" class="transition-link">OUR PROJECTS</a></li>
+                    <li class="p-5"><a href="#" class="transition-link">CONTACT US</a></li>
+                    <li class="p-5"><a href="#" class="transition-link">DONATE</a></li>
+
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <main></main>
+    <footer></footer>
+
 </body>
+
 </html>

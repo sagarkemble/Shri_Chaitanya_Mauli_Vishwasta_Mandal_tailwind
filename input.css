@@ -4,3 +4,13 @@
 .one{
     background: #000;
 }
+@layer utilities {
+    .active-btn {
+      @apply bg-color2 text-white py-3 px-5 rounded-full hover:bg-white hover:text-color2 transition-all ease-in duration-150;
+
+    }
+    .transition-link{
+        @apply transition-all ease-in duration-150 hover:text-white active:text-white;
+    }
+  }
+  
