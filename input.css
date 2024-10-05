@@ -5,15 +5,19 @@
     background: #000;
 }
 @layer utilities {
-    .active-btn {
-      @apply bg-color2 text-white py-3 px-5 rounded-full hover:bg-white hover:text-color2 transition-all ease-in duration-150;
 
-    }
     .transition-link{
-        @apply transition-all ease-in duration-150 hover:text-white active:text-white;
+        @apply transition-all ease-in duration-150 hover:text-neutral-400 active:text-white;
     }
     .animationmenu{
         @apply transition-all ease-in duration-150 h-auto ;
+    }
+    .gradient-1{
+        /* @apply bg-gradient-to-r from-color1 via-color2 via-color3 via-color4 via-color5 via-color6 via-color5 via-color4 via-color3 to-color2 to-color1; */
+        @apply bg-gradient-to-r from-color1  via-color5 via-color5  via-color6 via-color6 via-color5 via-color5  to-color1;
+        background-size: 800%;
+  background-position: 0% 50%;
+
     }
   }
   

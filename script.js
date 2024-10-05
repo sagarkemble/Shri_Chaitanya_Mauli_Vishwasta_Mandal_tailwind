@@ -23,9 +23,7 @@ function showlinks() {
   
   if (links.style.maxHeight) {
       links.style.maxHeight = null; // Collapse if already expanded
-      links.classList.remove('border-t-2', 'border-b-2'); // Remove borders on collapse
   } else {
-      links.classList.add('border-t-2', 'border-b-2'); // Add borders on expansion
       links.style.maxHeight = links.scrollHeight + "px"; // Expand to full height
   }
 }
@@ -39,4 +37,26 @@ function showlinks() {
     } else {
       sublink.style.maxHeight = sublink.scrollHeight + "px"; // Expand to full height
     }
-  };
+  }
+
+  const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });
