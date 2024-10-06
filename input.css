@@ -22,5 +22,13 @@
   background-position: 0% 50%;
 
     }
+    .gradient-2{
+        /* @apply bg-gradient-to-r from-color1 via-color2 via-color3 via-color4 via-color5 via-color6 via-color5 via-color4 via-color3 to-color2 to-color1; */
+        /* @apply bg-gradient-to-r from-[#00d1ff60] via-[#b8fa8a80] to-[#f9f87190] ; */
+        @apply bg-gradient-to-r from-[#00d1ff60] via-[#b8fa8a80] to-[#06edd490]  ;
+        background-size: 800%;
+  background-position: 0% 50%;
+
+    }
   }
   

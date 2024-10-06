@@ -18,7 +18,7 @@ module.exports = {
         },
       },
       animation:{
-        gradient:" gradient 4s linear infinite",
+        gradient:" gradient 4s linear infinite alternate",
       },
       fontFamily:{
         poppins:['Poppins']

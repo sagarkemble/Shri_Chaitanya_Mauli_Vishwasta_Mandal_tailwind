@@ -39,9 +39,31 @@ function showlinks() {
     }
   }
 
-  const swiper = new Swiper('.swiper', {
+  const swiper1 = new Swiper("#swiper-1", {
     // Optional parameters
     direction: 'horizontal',
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+
+  
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });  
+
+  const swiper2 = new Swiper("#swiper-2", {
+    // Optional parameters
+    direction: 'horizontal',
+    slidesPerView: 1.3,
+    centeredSlides: true,
+    spaceBetween: 20,
     loop: true,
   
     // If we need pagination
@@ -59,4 +81,45 @@ function showlinks() {
     scrollbar: {
       el: '.swiper-scrollbar',
     },
-  });
+  });  
+  const swiper3 = new Swiper("#swiper-3", {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+
+  
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });  
+  const swiper4 = new Swiper("#swiper-4", {
+    // Optional parameters
+    direction: 'horizontal',
+    slidesPerView: 1.3,
+    centeredSlides: true,
+    spaceBetween: 20,
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+
+  
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });  
+
+
