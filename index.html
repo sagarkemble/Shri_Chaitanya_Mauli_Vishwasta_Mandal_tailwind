@@ -7,7 +7,7 @@
     <title>Shri Chaitanya Mauli Vishwasta Mandal</title>
 
     <!-- scripts and stylesheets -->
-    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="input.css">
     <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="mycss.css">
@@ -18,27 +18,22 @@
 
 <body class="font-poppins">
     <header>
-        <nav class="gradient-1 animate-gradient
-             p-1 px-2 flex items-center justify-between">
-
-
-
+        <nav class="gradient-1 animate-gradient px-2 p-1 flex items-center justify-between sm:justify-normal ">
             <div class="logo flex items-center">
                 <img src="src/images/icons and illustrations/Chaitanya Mauli Logo PNG.png" alt="logo" class="h-8">
-                <div class="name w-[200px] sm:w-auto text-xs font-bold ml-2">
-                    Shri Chaitanya Mauli Vishwasta Mandal,Sangli
+                <div class="name w-[200px] sm:w-auto sm: sm:left-0 text-xs font-bold ml-2">
+                    Shri Chaitanya Mauli Vishwasta Mandal, Sangli
                 </div>
+                
             </div>
 
 
-            <div class="donate-btn">
-                <button class="bg-red-500
-                    bgco
-                    background-animate text-white p-1 w-20 rounded-lg ">Donate</button>
+            <div class="donate-btn sm:relative sm:right-0">
+                <button class="bg-red-500 background-animate text-white p-1 w-20 rounded-lg ">Donate</button>
             </div>
 
 
-            <div class="menu"><i class="fa-solid fa-bars hamburger cursor-pointer text-2xl m:hide"
+            <div class="menu sm:relative sm:right-0"><i class="fa-solid fa-bars hamburger cursor-pointer text-2xl m:hide"
                     onclick="showlinks()"></i>
             </div>
             <div class="crossicon hidden"><i class="fa-solid fa-xmark crossicon cursor-pointer text-2xl "
@@ -54,7 +49,7 @@
                 <ul class="">
                     <li class="p-5"><a href="#" class="transition-link">HOME</a></li>
 
-                    <li class="p-5"><a href="#" class="transition-link">WHO WE ARE</a></li>
+                    <li class="p-5"><a href="aboutus.html" class="transition-link">WHO WE ARE</a></li>
 
                     <div class="transition-link" onclick="showsublink()">
                         <li class="p-5"><a href="#">WHAT WE DO</a>
@@ -414,14 +409,29 @@
         <footer class="bg-color1">
             <div class="sociallinks">
                 <ul class="flex gap-4">
-                    <li><a href=""><i class="ri-facebook-circle-fill facebook text-2xl "></i></a></li>
-                    <li><a href="https://www.instagram.com/shri.chaintanyamauliv.mandal?igsh=Z285dDRyd3V5bzhp"><i class="ri-instagram-line instagram instagram text-2xl "></a></i></li>
-                    <li><a href=""><i class="ri-youtube-fill youtube text-2xl "></i></a></li>
+                    <li class=""><a href=""><i class="ri-facebook-circle-fill facebook text-2xl "></i></a></li>
+                    <li class=""><a href="https://www.instagram.com/shri.chaintanyamauliv.mandal?igsh=Z285dDRyd3V5bzhp"><i class="ri-instagram-line instagram instagram text-2xl "></a></i></li>
+                    <li class=""><a href=""><i class="ri-youtube-fill youtube text-2xl "></i></a></li>
                 </ul>
             </div>
-            <div class="links"></div>
-            <div class="address"></div>
-            <div class="copyright"></div>
+            <div class="links text-white font-semibold">
+                <ul class="flex gap-3">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Location</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="visitus font-medium">
+                Visit us
+            </div>
+            <div class="address text-xs text-white">
+                VH2J+XH5, near shanti ketan school, South Shivaji Nagar,
+                    Panchsheel nagar, Sangli, Sangli Miraj Kupwad, Maharashtra 416416
+            </div>
+            <div class="copyright text-xs font-thin text-white">
+                <p>&copy; Shri Chaitanya Mauli Vishwasta Mandai,Sangli</p>
+            </div>
 
 
         </footer>
