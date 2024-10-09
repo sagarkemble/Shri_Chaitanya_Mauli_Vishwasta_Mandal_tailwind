@@ -121,5 +121,27 @@ function showlinks() {
       el: '.swiper-scrollbar',
     },
   });  
+  const swiper5 = new Swiper("#swiper-5", {
+    // Optional parameters
+    direction: 'horizontal',
+    slidesPerView: 1.3,
+    centeredSlides: true,
+    spaceBetween: 20,
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+
+  
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });  
+
 
 

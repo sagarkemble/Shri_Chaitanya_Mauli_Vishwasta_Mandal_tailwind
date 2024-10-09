@@ -39,3 +39,9 @@
         opacity: 1;
     
     }
+#swiper-5{
+    height: 25vh;
+}
+.text{
+    z-index: 30;
+}

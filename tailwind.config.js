@@ -16,12 +16,18 @@ module.exports = {
           "0%":{backgroundPosition : "0% 50%"},
           "100%":{backgroundPosition : "100% 50%"},
         },
+        gradient2:{
+          "0%":{backgroundPosition : "0% 50%"},
+          "100%":{backgroundPosition : "100% 50%"},
+        },
       },
       animation:{
         gradient:" gradient 4s linear infinite alternate",
+        gradient2:" gradient 1s linear infinite alternate",
       },
       fontFamily:{
-        poppins:['Poppins']
+        poppins:['Poppins'],
+        playfair:['Playfair Display']
       }
       
     },
