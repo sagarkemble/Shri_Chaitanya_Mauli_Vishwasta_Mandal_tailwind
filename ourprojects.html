@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shri Chaitanya Mauli Vishwasta Mandal</title>
+
+    <!-- scripts and stylesheets -->
+    <link rel="stylesheet" href="output.css">
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="mycss.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <header>
+        <nav class="gradient-1 animate-gradient
+             p-1 px-2 flex items-center justify-between">
+
+
+
+            <div class="logo flex items-">
+                <img src="src/images/icons and illustrations/Chaitanya Mauli Logo PNG.png" alt="logo" class="h-8">
+                <div class="name w-[200px] sm:w-auto text-xs font-bold ml-2">
+                    Shri Chaitanya Mauli Vishwasta Mandal,Sangli
+                </div>
+            </div>
+
+
+            <div class="donate-btn">
+                <button class="bg-red-500
+                    bgco
+                    background-animate text-white p-1 w-20 rounded-lg ">Donate</button>
+            </div>
+
+
+            <div class="menu"><i class="fa-solid fa-bars hamburger cursor-pointer text-2xl m:hide"
+                    onclick="showlinks()"></i>
+            </div>
+            <div class="crossicon hidden"><i class="fa-solid fa-xmark crossicon cursor-pointer text-2xl "
+                    onclick="hidelinks()"></i></div>
+
+
+            <div
+                class="links z-10 text-black absolute top-10   gradient-1 animate-gradient
+                 w-full  left-0 flex flex-col items-center text-center p-0 m-0 overflow-hidden transition-all duration-300 ease-in-out overflow-hidden max-h-0">
+
+
+
+                <ul class="">
+                    <li class="p-5"><a href="#" class="transition-link">HOME</a></li>
+
+                    <li class="p-5"><a href="aboutus.html" class="transition-link">WHO WE ARE</a></li>
+
+                    <div class="transition-link" onclick="showsublink()">
+                        <li class="p-5"><a href="#">WHAT WE DO</a>
+                            <i class="fa-solid fa-caret-down text-l"></i>
+                    </div>
+                    <ul class="sublink overflow-hidden max-h-0 transition-all duration-300 ease-in-out space-y-2">
+                        <li class="transition-link"><a href="">Daycare</a></li>
+                        <li class="transition-link"><a href="">Daycare</a></li>
+                        <li class="transition-link"><a href="">Daycare</a></li>
+                        <li class="transition-link"><a href="">Daycare</a></li>
+                        <li class="transition-link"><a href="">Daycare</a></li>
+                    </ul>
+                    </li>
+                    <li class="p-5"><a href="ourprojects.html" class="transition-link">OUR PROJECTS</a></li>
+                    <li class="p-5"><a href="#" class="transition-link">CONTACT US</a></li>
+                    <li class="p-5"><a href="#" class="transition-link">DONATE</a></li>
+
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <div class="swiper h-[60vh]" id="swiper-1">
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide ">
+                    <div class="overlay-text z-10 ">
+                        <div class="overlay bg-black opacity-30 h-[60vh]"></div>
+                        <div class="text"></div>
+                    </div>
+                    <div class="overlay-text w-full h-full absolute ">
+                        <div class="overlay w-full h-full  bg-black opacity-[0.3] z-10 absolute"></div>
+                        <div class="h-full text z-30 text-white relative flex flex-col justify-center items-center">
+                            <div class="smalltext font-medium ">Caring for every child</div>
+                            <div class="bigtext leading-[60px] font-[500] font-playfair text-5xl text-center">
+                                Growing<br>together with<br>love and<br>
+                                care </div>
+                                <button
+                    class="mt-4 bg-red-500 text-white active:text-red-500 active:bg-white transition-all ease-in font-semibold py-2 px-3 rounded-lg">Know-More</button>
+                        </div>
+                    </div>
+                        <img src="src/images/slider-1_images/1.jpeg" alt="">
+                </div>
+                <div class="swiper-slide flex items-center">
+                    <div class="overlay-text z-10 ">
+                        <div class="overlay bg-black opacity-30 h-[60vh]"></div>
+                        <div class="text"></div>
+                    </div>
+                    <div class="overlay-text w-full h-full absolute ">
+                        <div class="overlay w-full h-full  bg-black opacity-[0.3] z-10 absolute"></div>
+                        <div class="h-full text z-30 text-white relative flex flex-col justify-center items-center">
+                            <div class="smalltext font-medium ">Caring for every child</div>
+                            <div class="bigtext leading-[60px] font-[500] font-playfair text-5xl text-center">
+                                Growing<br>together with<br>love and<br>
+                                care </div>
+                                <button
+                    class="mt-4 bg-red-500 text-white active:text-red-500 active:bg-white transition-all ease-in font-semibold py-2 px-3 rounded-lg">Know-More</button>
+                        </div>
+                    </div>
+                    <img src="src/images/slider-1_images/1.jpeg" alt="">
+                </div>            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

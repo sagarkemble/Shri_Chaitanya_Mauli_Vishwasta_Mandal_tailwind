@@ -16,17 +16,34 @@
 //     crossicon.style.display='none';
 
 //   };
+// function showlinks() {
+//   const links = document.querySelector('.links');
+//   const hamburger = document.querySelector('.hamburger');
+//   const crossicon = document.querySelector('.crossicon');
+  
+//   if (links.style.maxHeight) {
+//       links.style.maxHeight = null; // Collapse if already expanded
+//   } else {
+//       links.style.maxHeight = links.scrollHeight + "px"; // Expand to full height
+//   }
+// }
+
 function showlinks() {
   const links = document.querySelector('.links');
-  const hamburger = document.querySelector('.hamburger');
-  const crossicon = document.querySelector('.crossicon');
-  
-  if (links.style.maxHeight) {
-      links.style.maxHeight = null; // Collapse if already expanded
-  } else {
-      links.style.maxHeight = links.scrollHeight + "px"; // Expand to full height
+
+  if (links.classList.contains('-translate-y-[500px]')) {
+      // Slide it into view
+      links.classList.remove('-translate-y-[500px]');
+      links.classList.add('translate-y-0');
+      links.classList.add('opacity-100');
+    } else {
+      // Slide it out of view
+      links.classList.remove('translate-y-0');
+      links.classList.add('-translate-y-[500px]');
+      links.classList.add('opacity-0');
   }
 }
+
 
 
   function showsublink() {

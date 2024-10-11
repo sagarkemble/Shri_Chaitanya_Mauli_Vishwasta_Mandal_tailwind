@@ -13,7 +13,7 @@
 @layer utilities {
 
     .transition-link {
-        @apply transition-all ease-in duration-150 hover:text-neutral-400 active:text-white;
+        @apply transition-all ease-in duration-150  active:text-white;
     }
 
     .animationmenu {
