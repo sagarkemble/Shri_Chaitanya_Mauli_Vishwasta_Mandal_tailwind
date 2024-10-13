@@ -28,21 +28,24 @@
 //   }
 // }
 
+
 function showlinks() {
   const links = document.querySelector('.links');
 
   if (links.classList.contains('-translate-y-[500px]')) {
-      // Slide it into view
+
       links.classList.remove('-translate-y-[500px]');
       links.classList.add('translate-y-0');
       links.classList.add('opacity-100');
     } else {
-      // Slide it out of view
+
       links.classList.remove('translate-y-0');
       links.classList.add('-translate-y-[500px]');
       links.classList.add('opacity-0');
   }
 }
+
+
 
 
 
