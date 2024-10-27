@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="src/images/icons and illustrations/Chaitanya Mauli Logo PNG.png">
+        <title>Shri Chaitanya Mauli Vishwasta Mandal</title>
+    
+        <!-- scripts and stylesheets -->
+        <link rel="stylesheet" href="output.css">
+        <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="mycss.css">
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    
+    </head>
+<body>
+    <header>
+        <nav>
+
+            <div class="gradient-1 animate-gradient relative 
+             p-1 px-2 flex items-center justify-between z-20">
+
+
+                <div class="logo flex items-center">
+                    <img src="src/images/icons and illustrations/Chaitanya Mauli Logo PNG.png" alt="logo" class="h-8">
+                    <div class="name  text-xs font-bold ml-2">
+                        Shri Chaitanya Mauli<br>Vishwasta Mandal,Sangli
+                    </div>
+                </div>
+
+                <div class="donate-btn md:hidden">
+                    <button class="bg-red-500 background-animate text-white p-1 w-20 rounded-lg ">Donate</button>
+                </div>
+
+
+                <div class="menu md:hidden"><i class="fa-solid fa-bars hamburger cursor-pointer text-2xl "
+                        onclick="showlinks()"></i>
+                </div>
+                <div class="lglinks hidden lg:block text-[13px]">
+                    <ul class="flex gap-8 xl:gap-12">
+                        <li class=""><a href="index.html" class="transition-link">HOME</a></li>
+
+                        <li class=""><a href="aboutus.html" class="transition-link">WHO WE ARE</a></li>
+
+                        <li class=" transition-link cursor-pointer" onclick="showsublink()">
+                            WHAT WE DO
+                            <i class="fa-solid fa-caret-down text-l"></i>
+                            <ul
+                                class="sublink overflow-hidden max-h-0 transition-all duration-300 ease-in-out space-y-2 m-2 gradient-1 animate-gradient px-5 rounded-md md:absolute z-40 -translate-x-3 ">
+                                <li class="transition-link"><a href="">Daycare</a></li>
+                                <li class="transition-link"><a href="">Daycare</a></li>
+                                <li class="transition-link"><a href="">Daycare</a></li>
+                                <li class="transition-link"><a href="">Daycare</a></li>
+                                <li class="transition-link"><a href="">Daycare</a></li>
+                            </ul>
+                        </li>
+                        <li class=""><a href="ourprojects.html" class="transition-link">OUR PROJECTS</a></li>
+                        <li class=""><a href="contactus.html" class="transition-link">CONTACT US</a></li>
+                        <li class=""><a href="#" class="transition-link">DONATE</a></li>
+                    </ul>
+                </div>
+
+
+
+
+
+                <div class="donate-btn hidden md:block">
+                    <button class="bg-red-500
+                    bgco
+                    background-animate text-white p-1 w-20 rounded-lg ">Donate</button>
+                </div>
+
+
+            </div>
+            <div
+                class="links gradient-1 animate-gradient z-10 text-black absolute top-10 md:relative md:top-0 lg:hidden
+             w-full  left-0 flex flex-col md:flex-row items-center text-center  py-8 md:py-2  transition-all duration-500 ease-in-out -translate-y-[500px] md:translate-y-0 opacity-0 md:opacity-100 md:justify-center md:text-[13px] md:z-40">
+
+
+
+                <ul class="flex flex-col gap-10 md:flex-row">
+                    <li class=""><a href="index.html" class="transition-link">HOME</a></li>
+
+                    <li class=""><a href="aboutus.html" class="transition-link">WHO WE ARE</a></li>
+
+                    <li class="sublink transition-link" onclick="showsublink2()">
+                        WHAT WE DO
+                        <i class="fa-solid fa-caret-down text-l"></i>
+                        <ul
+                            class="sublink2 overflow-hidden max-h-0 transition-all duration-300 ease-in-out space-y-2 md:absolute z-40 md:gradient-1 md:animate-gradient md:px-5 md:pt-0 md:translate-y-1 md:rounded-md">
+                            <li class="transition-link"><a href="">Daycare</a></li>
+                            <li class="transition-link"><a href="">Daycare</a></li>
+                            <li class="transition-link"><a href="">Daycare</a></li>
+                            <li class="transition-link"><a href="">Daycare</a></li>
+                            <li class="transition-link"><a href="">Daycare</a></li>
+                        </ul>
+                    </li>
+                    <li class=""><a href="ourprojects.html" class="transition-link">OUR PROJECTS</a></li>
+                    <li class=""><a href="#" class="transition-link">CONTACT US</a></li>
+                    <li class=""><a href="#" class="transition-link">DONATE</a></li>
+
+                </ul>
+            </div>
+
+
+
+
+        </nav>
+    </header>
+
+        <!-- herosection -->
+        <div class="herosection">
+            <img src="src/images/slider-1_images/4.jpg" alt="" class="h-[50vh] w-full object-cover">
+        </div>
+
+
+
+        <!-- content-1 -->
+        <div class="content-1 flex flex-col items-center bg-[#73f6af40] pt-14 ">
+            <div class="grid grid-cols-1 sm:grid-cols-2 items-center justify-center pb-5 sm:m-5 ">
+
+                <div class="flex flex-col items-center p-0 m-0">
+
+                    <p class="text-3xl font-semibold text-[#0f3a1e] text-center">About Us</p>
+                    <div class="line h-1 w-36 gradient-1 animate-gradient"></div>
+                    <div class="description font-normal text-gray-800 p-3 font-poppins max-w-[500px] lg:text-xl">
+
+                        It was some 40 yers back, The Chaitanya Mauli Vishwast mandal was established by an entrepreneur
+                        Shri.
+                        Vaman Shankar Joshi alongwith his wife, Malati Joshi and some of their like minded friends,
+                        with Vision to ,Develop morally upright, responsible and cultured future generation, who would
+                        contribute in upliftment of their own brothers and sisters, as well as for betterment of society
+                        and
+                        Nation.
+                    </div>
+                </div>
+                <div class="max-w-[630px]">
+                    <img src="src/images/slider-2_images/2.png" alt="" class="  rounded-lg">
+                </div>
+            </div>
+
+
+            <div class="message flex border-b-[3px] border-[#ffd890] mt-3 w-full justify-center items-center">
+                <div class="group1 flex gap-2 flex-shrink-0">
+                    <img src="src/images/icons and illustrations/school.png" alt="" class="w-11">
+                    <img src="src/images/icons and illustrations/tree.png" alt="" class="w-11">
+                </div>
+                <div class="text bg-clip-text text-transparent text-center p-0 m-0 font-medium gradient-3
+                 animate-gradient2 dura">Empowering Children Shaping Future</div>
+                <div class="group2 flex flex-shrink-0 gap-2">
+                    <img src="src/images/icons and illustrations/tree.png" alt="" class="w-11">
+                    <img src="src/images/icons and illustrations/school.png" alt="" class="w-11">
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="content-2 flex flex-col items-center bg-[#f9f87130] pt-14 ">
+            <div class="grid grid-cols-1 lg:grid-cols-2 items-center justify-center pb-5 sm:m-5 ">
+                <div class="max-w-[630px] hidden lg:block">
+                    <img src="src/images/slider-2_images/2.png" alt="" class="  rounded-lg">
+                </div>
+
+                <div class="flex flex-col items-center p-0 m-0">
+
+                    <p class="text-3xl font-semibold text-[#0f3a1e] text-center">What made the origin of daycare</p>
+                    <div class="description font-normal text-gray-800 p-3 font-poppins max-w-[700px] lg:text-xl text-center lg:text-left">
+                        When Shri. Vaman Shankar Joshi alongwith his wife Malati Joshi planned to recide in Panchsheel
+                        Nagar,
+                        they observed that, the area was housed by hard working, hand to mouth labours, facing
+                        challenging
+                        social conditions. Consequently the children growing up in this area were facing various
+                        difficulties.
+                        Some were drawn in alcohol, tobacco, gutkha addiction, gambling and other social vices.It was
+                        very
+                        painful to see the <div class=" gradient-3 animate-gradient bg-clip-text text-transparent">
+                            Neglected
+                            Growth and Squandering potential</div> of such young children.They both strongly
+                        belived that moral and ethical education plays important role in ensuring the future of young
+                        children.<br>Hence Shri Chaitanya mauli Vishwasta Mandal Trust was established to help children
+                        to grow
+                        with love and care.
+                        <div class=" gradient-3 animate-gradient bg-clip-text text-transparent">Holistic development
+                        </div> of
+                        children can be achived by instilling strong ethics,
+                        fostering values at early age,not only to help children navigate life's
+                        challengs but also
+                        contribute to the develpment as a responsible citizen.
+                    </div>
+                </div>
+                <div class="max-w-[630px] lg:hidden">
+                    <img src="src/images/slider-2_images/2.png" alt="" class="  rounded-lg">
+                </div>
+
+            </div>
+
+
+            <div class="message flex border-b-[3px] border-[#73edf6] py-2 justify-center items-center w-full">
+                <div class="group1 flex pr-1 ">
+                    <img src="src/images/icons and illustrations/smile-48.png" alt="" class="w-11">
+                </div>
+                <div class="text bg-clip-text text-transparent text-center p-0 m-0 font-medium gradient-3
+                 animate-gradient2 dura">Let your smile change the world</div>
+                <div class="group2 flex pl-1">
+                    <img src="src/images/icons and illustrations/smile-48.png" alt="" class="w-11">
+
+                </div>
+            </div>
+        </div>
+        <footer class="bg-color1 flex flex-col gap-2 box-sizing p-2">
+            <div class="sociallinks">
+                <ul class="flex gap-2">
+                    <li class=""><a href=""><i class="ri-facebook-circle-fill facebook text-2xl "></i></a></li>
+                    <li><a href="https://www.instagram.com/shri.chaintanyamauliv.mandal?igsh=Z285dDRyd3V5bzhp"><i
+                                class="ri-instagram-line instagram instagram text-2xl "></a></i></li>
+                    <li><a href=""><i class="ri-youtube-fill youtube text-2xl "></i></a></li>
+                </ul>
+            </div>
+            <div class="websitelinks">
+                <ul class="flex font-medium gap-4 text-white">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Location</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+    
+                <p class="font-medium">Visit us</p>
+                <div class="address text-white">
+                    VH2J+XH5, near shanti ketan school, South Shivaji Nagar,
+                    Panchsheel nagar, Sangli, Sangli Miraj Kupwad, Maharashtra 416416
+                </div>
+            </div>
+            <div class="copyright text-xs">
+                <p>&copy; Shri Chaitanya Mauli Vishwasta Mandai,Sangli</p>
+            </div>
+    
+        </footer>
+    
+</body>
+</html>

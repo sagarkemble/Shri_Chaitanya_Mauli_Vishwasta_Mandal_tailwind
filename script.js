@@ -29,13 +29,17 @@ function showlinks() {
     }
   }
   function showsublink2() {
-    const sublink = document.querySelector('.sublink');
+    const sublink = document.querySelector('.sublink2');
     
     if (sublink.style.maxHeight) {
       sublink.style.maxHeight = null; // Collapse if already expanded
+      sublink.classList.remove('pt-7'); // Remove pt-7 class
+      
     } else {
       sublink.style.maxHeight = sublink.scrollHeight + "px"; // Expand to full height
+      sublink.classList.add('pt-7'); // Add pt-7 class
     }
+
   }
 
   
