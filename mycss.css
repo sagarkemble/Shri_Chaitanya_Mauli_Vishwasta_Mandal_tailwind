@@ -46,7 +46,7 @@
     z-index: 30;
 }
 .ourproject-1{
-    background-image: url('src/images/slider-1_images/1.jpeg');
+    background-image: url('src/images/pixelcut-export.jpg');
   background-size: cover; /* Ensures the image covers the entire background */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
